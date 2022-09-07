@@ -14,6 +14,6 @@ Sales are influenced by time of year, weather, temperature and price. The input 
 
 
 # Development
-TensorFlow.js is an open source JavaScript-based library for training and implementing machine learning models. TensorFlow.js provides not only low-level machine learning building blocks, but also high-level Keras-like APIs for building neural networks. In my codes , the user can input weather and price and the Python script will give a reasonable prediction value.
+My develoment is based on TensorFlow library for training and implementing machine learning models. TensorFlow provides not only low-level machine learning building blocks, but also high-level Keras APIs for building neural networks. In my codes, the user can input data, weather, temperature and price and then the Python script will give a reasonable prediction value.
 
 * The data cannot be uploaded due to confidentiality
