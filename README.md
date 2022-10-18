@@ -1,19 +1,17 @@
-# LSTM-based-model-for-predicting-sales
-I developed an LSTM model based on the tensorflow framework to predict the sales volume of electronic scales to help vendors better regulate their intake and reduce vegetable hoarding as well as waste.
+# Personalised-recommendation-algorithms-for-e-commerce-web-pages-by-Python
+I developed an intelligent recommendation model using Collaborative Filtering (CF) techinque in order to help users of one law service e-commerce website quickly discover web pages of interest from the vast amount of information available.
 
-# Problem Description
-Vegetables in markets are likely to be in greater supply than demand, resulting in too many vegetables left over and extensive wasted. I imagine that if we could know the probable sales for the second day or the following days, the vendors would be able to reasonably regulate the amount of vegetables they need to sell everyday, reducing store and waste of vegetables.
+# Background
+The Lawtime.cn is a large Chinese e-commerce legal information platform, dedicated to providing users with a wealth of legal information and professional legal consulting services. As the scale of business enlarges, the number of visitors to their websites gradually increases, and with it the amount of data is also growing significantly. In order to save time of users and help them find information of interest quickly, Lawtime.cn posted a public project for a intelligent recommendation system.
 
-We know that vegetable sales fluctuate mainly depending on seasons, weather, price and many other factors, and so far their impact on vegetable sales amount cannot be clearly defined. This is because sales prediction is highly non-linear, which requires prediction models to be able to deal with non-linearity and, as sales volume has a nature of time series, recurrent neural networks are suitable, for sales prediction.
+# Dataset
+The open-sourced dataset **data.sql** comes from a online chinese computer science community. It has SQL file format and provides user access logs of Lawtime.cn website. You can find it in the folder and you have to upload it into the SQL database first to access by Python.
 
-# Model Select
-The LSTM model is a special type of RNN model that solves the problem of RNNs not having long term memory.
+# Algorithm Select
+Collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users. You can find more information about this technique from here: https://dl.acm.org/doi/abs/10.1145/138859.138867. (D. Goldberg, D. Nichols, B. M. Oki, and D. Terry, “Using collaborative filtering to weave an information tapestry,” Communications of ACM, vol. 35, no. 12, pp. 61–70, 1992.)  
 
-# Input Parameter
-Sales are influenced by time of year, weather, temperature and price. The input values are therefore defined as data, weather, temperature and price.
-
-
-# Development
+# My model
 My develoment is based on TensorFlow library for training and implementing machine learning models. TensorFlow provides not only low-level machine learning building blocks, but also high-level Keras APIs for building neural networks. In my codes, the user can input data, weather, temperature and price and then the Python script will give a reasonable prediction value.
 
-* The data cannot be uploaded due to confidentiality
+# Results
+You can find the results in the **Res.csv** where "IP address", "Viewed Webpages", "Recommended Webpages" and "Evaluation" are included. 
