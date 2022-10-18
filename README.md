@@ -23,7 +23,7 @@ According to the results,
 
 # Recommendation Model
 You can find codes in the **WebRecom.py**. The procedure of model is showed in the picture below:
-
+![](https://github.com/brucelang32/Personalised-recommendation-algorithms-for-e-commerce-web-pages-by-Python/blob/main/CF.jpg)
 
 
 # Results
